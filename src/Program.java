@@ -3,6 +3,8 @@ public class Program {
 public static void main(String[] args) {
 	String a = "hello howare you    uuuu";
 	int count = 1;
+	int c=100;
+	System.out.println("hi");
 	char[] b = a.toCharArray();
 	for (int i = 0; i < b.length; i++) {
 		if (b[i] != '0' && b[i] != ' ') {
